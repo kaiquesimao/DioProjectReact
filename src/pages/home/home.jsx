@@ -1,11 +1,14 @@
-import {Link} from "react-router-dom";
-
+import {Button} from "../../components/button/button.jsx";
 const Home = () => {
     return (
-        <div>
-        <h1>Home Page</h1>
-        <Link to="/login">Ir para Login</Link>
-        </div>
+        <>
+        <Button title="teste 1">
+
+        </Button>
+        <Button variant={"secondary"} title="teste2">
+
+        </Button>
+        </>
     );
 }
 
