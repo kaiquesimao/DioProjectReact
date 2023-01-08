@@ -59,6 +59,9 @@ export const MenuRight = styled.div`
     color: white;
     margin-right: 12px;
     text-decoration: none;
+    a {
+        color: inherit;
+        text-decoration: none;}
 `
 
 export const UserPicture = styled.img`

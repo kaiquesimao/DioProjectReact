@@ -10,6 +10,7 @@ import {
 } from "./styles.js";
 import { Button } from "../button/button.jsx";
 import { UserImg } from "../card/styles.js";
+import { Link } from "react-router-dom";
 
 export const Header = ({ autenticado }) => {
   return (
@@ -32,9 +33,9 @@ export const Header = ({ autenticado }) => {
             <UserImg src="https://avatars.githubusercontent.com/u/66140734?v=4" />
           ) : (
             <>
-              <MenuRight href="#">Home</MenuRight>
-              <Button title="Entrar" />
-              <Button title="Cadastrar" />
+              <MenuRight><Link to="/">Home</Link></MenuRight>
+              <Link to="/login"><Button title="Entrar" /></Link>
+              <Link to="/login"><Button title="Cadastrar" /></Link>
             </>
           )}
         </Row>
