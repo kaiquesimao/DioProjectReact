@@ -7,7 +7,7 @@ export const Header = () => {
         <Wrapper>
             <Container>
                 <Row>
-                    <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="logo"/>
+                    <img src="./src/assets/img/home/logo-dio.png" alt="logo"/>
                     <BuscarInputContainer>
                         <Input placeholder="Buscar..."/>
                     </BuscarInputContainer>
