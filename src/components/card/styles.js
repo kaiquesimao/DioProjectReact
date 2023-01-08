@@ -55,13 +55,15 @@ export const UserImg = styled.img`
 `;
 
 export const PostInfo = styled.div`
+  margin-bottom: 12px;
+  
   h4 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
-    line-height: 16px;
-    color: #ffffff80;
+    font-size: 18px;
+    line-height: 25px;
+    color: #ffffffff;
   }
 
   p {
@@ -70,6 +72,11 @@ export const PostInfo = styled.div`
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
+    color: #ffffff99;
+  }
+
+  strong {
+    color: #ffffffff;
   }
 `;
 
