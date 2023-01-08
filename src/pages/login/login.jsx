@@ -1,6 +1,7 @@
 import {Button} from "../../components/button/button.jsx";
 import {Header} from "../../components/header/header.jsx";
 import { Input } from "../../components/input/input.jsx";
+import {MdEmail, MdLock} from "react-icons/md";
 
 import { Column, Container, CriarText, EsqueciText, Row, SubTitleLogin, Title, TitleLogin, Wrapper } from "./styles.js";
 
@@ -21,8 +22,8 @@ const Login = () => {
                 <TitleLogin>Faça seu cadastro</TitleLogin>
                 <SubTitleLogin>Faça seu login e make the change._</SubTitleLogin>
                 <form>
-                <Input placeholder="E-mail" />
-                <Input placeholder="Senha" type="password" />
+                <Input placeholder="E-mail" leftIcon={<MdEmail />}/>
+                <Input placeholder="Senha" type="password" leftIcon={<MdLock />}/>
                 <Button title="Entrar" variant="secondary" onClick={()=> null} />
                 </form>
                 <Row>
