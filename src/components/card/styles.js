@@ -56,7 +56,7 @@ export const UserImg = styled.img`
 
 export const PostInfo = styled.div`
   margin-bottom: 12px;
-  
+
   h4 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;

@@ -33,9 +33,15 @@ export const Header = ({ autenticado }) => {
             <UserImg src="https://avatars.githubusercontent.com/u/66140734?v=4" />
           ) : (
             <>
-              <MenuRight><Link to="/">Home</Link></MenuRight>
-              <Link to="/login"><Button title="Entrar" /></Link>
-              <Link to="/login"><Button title="Cadastrar" /></Link>
+              <MenuRight>
+                <Link to="/">Home</Link>
+              </MenuRight>
+              <Link to="/login">
+                <Button title="Entrar" />
+              </Link>
+              <Link to="/login">
+                <Button title="Cadastrar" />
+              </Link>
             </>
           )}
         </Row>

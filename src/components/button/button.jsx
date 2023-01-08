@@ -1,12 +1,12 @@
 import React from "react";
 
-import {ButtonContainer} from "./styles.js";
+import { ButtonContainer } from "./styles.js";
 
-const Button = ({title, variant="primary", onClick}) => {
-    return(
-            <ButtonContainer variant={variant} onclick={onClick}>
-                {title}
-            </ButtonContainer>
-    )
-}
-export {Button};
+const Button = ({ title, variant = "primary", onClick }) => {
+  return (
+    <ButtonContainer variant={variant} onclick={onClick}>
+      {title}
+    </ButtonContainer>
+  );
+};
+export { Button };
