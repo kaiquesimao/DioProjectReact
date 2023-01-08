@@ -73,4 +73,5 @@ export const Input = styled.input`
     flex: 1;
     border: 0;
     color: white;
+    height: 100%;
 `
