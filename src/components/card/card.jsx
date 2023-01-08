@@ -7,10 +7,10 @@ const Card = () => {
 return (
 
     <CardContainer>
-        <ImgBackground />
+        <ImgBackground src="https://www.turing.com/blog/wp-content/uploads/2022/02/programminng-languages-for-ai-scaled.jpg"/>
         <Content>
             <UserInfo>
-                <UserImg />
+                <UserImg src="https://avatars.githubusercontent.com/u/66140734?v=4"/>
                 <div>
                     <h4>Kaique Simão</h4>
                     <p>Há 8 minutos</p>
@@ -18,7 +18,7 @@ return (
             </UserInfo>
             <PostInfo>
                 <h4>Projeto para o curso de ReactJS da Digital Innovation One</h4>
-                <p>Projeto feito no BootCamp OrangeTech do Banco Inter...<strong>Saiba mais</strong></p>
+                <p>Projeto feito no BootCamp OrangeTech do Banco Inter... <strong>Saiba mais</strong></p>
             </PostInfo>
             <HasInfo>
                 <h4>#HTML #CSS #Javascript</h4>
@@ -30,5 +30,6 @@ return (
         
     </CardContainer>
 );
-
 }
+
+export default Card
