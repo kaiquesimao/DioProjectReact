@@ -7,15 +7,10 @@ import { Column, Container, Title, TitleHighlight } from "./styles.js";
 const Feed = () => {
   return (
     <>
-      <Header />
+      <Header autenticado={true}/>
       <Container>
         <Column flex={3}>
         <Title>Feed</Title>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
-          <Card/>
           <Card/>
           <Card/>
           <Card/>
