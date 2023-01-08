@@ -64,7 +64,7 @@ export const EsqueciText = styled.p`
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-  color: #E5E044;
+  color: #e5e044;
 `;
 
 export const CriarText = styled.p`
@@ -73,6 +73,5 @@ export const CriarText = styled.p`
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
-  color: #E23DD7;
+  color: #e23dd7;
 `;
-
