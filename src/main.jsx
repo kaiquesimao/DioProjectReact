@@ -7,7 +7,7 @@ import {
 
 import {GlobalStyle} from "./styles/global.js";
 import Home from './pages/home/home';
-import Login from "./pages/login/login.jsx";
+import Login from "./pages/login/login";
 
 const router = createBrowserRouter([
     {
