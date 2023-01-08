@@ -48,38 +48,46 @@ export const UserInfo = styled.div`
 `;
 
 export const UserImg = styled.img`
-width: 32px;
-height: 32px;
-border-radius: 22px;
-border: 3px solid #FFFFFF;
-`
+  width: 32px;
+  height: 32px;
+  border-radius: 22px;
+  border: 3px solid #ffffff;
+`;
 
 export const PostInfo = styled.div`
-h4 {
+  h4 {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
     line-height: 16px;
     color: #ffffff80;
-}
+  }
 
-    p{
+  p {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 16px;
-    }
-`
+  }
+`;
 
 export const HasInfo = styled.div`
-h4 {
+  h4 {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: #ffffff80;
+  }
+
+  p {
     font-family: "Open Sans", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 22px;
-}
-
-`
+  }
+`;
