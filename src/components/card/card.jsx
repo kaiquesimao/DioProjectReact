@@ -10,6 +10,7 @@ import {
 } from "./styles";
 
 import { FiThumbsUp } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
 const Card = () => {
   return (
@@ -27,7 +28,7 @@ const Card = () => {
           <h4>Projeto para o curso de ReactJS da Digital Innovation One</h4>
           <p>
             Projeto feito no BootCamp OrangeTech do Banco Inter...{" "}
-            <strong>Saiba mais</strong>
+            <Link to="https://github.com/kaiquesimao/DioProjectReact"><strong>Saiba mais</strong></Link>
           </p>
         </PostInfo>
         <HasInfo>
