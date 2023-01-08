@@ -4,11 +4,13 @@ import { Input } from "../../components/input/input.jsx";
 import {MdEmail, MdLock} from "react-icons/md";
 
 import { Column, Container, CriarText, EsqueciText, Row, SubTitleLogin, Title, TitleLogin, Wrapper } from "./styles.js";
+import { Link } from "react-router-dom";
 
 const Login = () => {
+
     return (
         <>
-            <Header />
+            <Header autenticado={false}/>
 
         <Container>
             <Column>
@@ -24,7 +26,9 @@ const Login = () => {
                 <form>
                 <Input placeholder="E-mail" leftIcon={<MdEmail />}/>
                 <Input placeholder="Senha" type="password" leftIcon={<MdLock />}/>
-                <Button title="Entrar" variant="secondary" onClick={()=> null} />
+                <Link to="/feed">
+                <Button title="Entrar" variant="secondary" type="button"/>
+                </Link>
                 </form>
                 <Row>
                     <EsqueciText>

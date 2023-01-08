@@ -1,28 +1,33 @@
+import { Link } from "react-router-dom";
 import {Button} from "../../components/button/button.jsx";
 import {Header} from "../../components/header/header.jsx";
 
 import { Container, TextContent, Title, TitleHighlight } from "./styles.js";
 
 const Home = () => {
+    
     return (
         <>
-            <Header />
+            <Header autenticado={false}/>
 
         <Container>
             <div>
-        <Title>
-            <TitleHighlight>
-                Implemente
-                <br />
-            </TitleHighlight>
-            O seu futuro global agora!
-        </Title>
+                <Title>
+                    <TitleHighlight>
+                        Implemente
+                        <br />
+                    </TitleHighlight>
+                    O seu futuro global agora!
+                </Title>
 
-        <TextContent>
-            Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo na comunidade com os melhores experts.
-        </TextContent>
+                <TextContent>
+                    Domine as tecnologias utilizadas pelas empresas mais inovadoras do mundo e encare seu novo desafio profissional, evoluindo na comunidade com os melhores experts.
+                </TextContent>
 
-        <Button title="Começar agora" variant="secondary" onClick={()=> null}></Button>
+                <Link to="/login">
+                    <Button title="Começar agora" variant="secondary" type="button"></Button>
+                </Link>
+
             </div>
 
             <div>
