@@ -7,7 +7,7 @@ const Card = () => {
 return (
 
     <CardContainer>
-        <ImgBackground src="https://www.turing.com/blog/wp-content/uploads/2022/02/programminng-languages-for-ai-scaled.jpg"/>
+        <ImgBackground src="https://mentorama.com.br/blog/wp-content/uploads/2022/06/capa-blog-coding-iniciante.jpg"/>
         <Content>
             <UserInfo>
                 <UserImg src="https://avatars.githubusercontent.com/u/66140734?v=4"/>
