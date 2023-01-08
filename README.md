@@ -21,4 +21,4 @@ Tecnologias utilizadas:
 # Instruções
 
 -npm i
--npm run dev
+-npm run dev || yarn run dev
