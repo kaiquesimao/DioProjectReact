@@ -2,6 +2,8 @@
 
 Projeto do BootCamp de React da DIO/Inter.
 
+[Acesse aqui](https://dio-project-react.vercel.app/)
+
 Tecnologias utilizadas:
 
 -ReactJS v18.2
