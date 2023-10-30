@@ -36,7 +36,7 @@ const Home = () => {
 
         <div>
           <img
-            src="/src/assets/img/home/banner-dio.png"
+            src="../../assets/img/home/banner-dio.png"
             alt="Imagem principal"
           />
         </div>

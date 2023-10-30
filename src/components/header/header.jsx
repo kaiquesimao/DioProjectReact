@@ -17,7 +17,7 @@ export const Header = ({ autenticado }) => {
     <Wrapper>
       <Container>
         <Row>
-          <img src="./src/assets/img/home/logo-dio.png" alt="logo" />
+          <img src="../../assets/img/home/logo-dio.png" alt="logo" />
           {autenticado ? (
             <>
               <BuscarInputContainer>
