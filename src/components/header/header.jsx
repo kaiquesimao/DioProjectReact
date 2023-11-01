@@ -11,13 +11,14 @@ import {
 import { Button } from "../button/button.jsx";
 import { UserImg } from "../card/styles.js";
 import { Link } from "react-router-dom";
+import { logo } from "../../assets/img/home/index.js";
 
 export const Header = ({ autenticado }) => {
   return (
     <Wrapper>
       <Container>
         <Row>
-          <img src="../../assets/img/home/logo-dio.png" alt="logo" />
+          <img src={logo} alt="logo" />
           {autenticado ? (
             <>
               <BuscarInputContainer>

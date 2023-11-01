@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { Button } from "../../components/button/button.jsx";
 import { Header } from "../../components/header/header.jsx";
+import { banner } from "../../assets/img/home/index.js";
 
 import { Container, TextContent, Title, TitleHighlight } from "./styles.js";
 
@@ -35,10 +36,7 @@ const Home = () => {
         </div>
 
         <div>
-          <img
-            src="../../assets/img/home/banner-dio.png"
-            alt="Imagem principal"
-          />
+          <img src={banner} alt="Imagem principal" />
         </div>
       </Container>
     </>
