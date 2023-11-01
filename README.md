@@ -8,11 +8,11 @@ Tecnologias utilizadas:
 
 -ReactJS v18.2
 
--React Router v6.6.1
+-React Router v6.18.0
 
--Styled Components v5.3.6
+-Styled Components v6.1.0
 
--ViteJS v4.0.0
+-ViteJS v4.5.0
 
 # Imagens
 
