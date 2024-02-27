@@ -6,13 +6,13 @@ Projeto do BootCamp de React da DIO/Inter.
 
 Tecnologias utilizadas:
 
--ReactJS v18.2
+-ReactJS 
 
--React Router v6.18.0
+-React Router 
 
--Styled Components v6.1.0
+-Styled Components 
 
--ViteJS v4.5.0
+-ViteJS 
 
 # Imagens
 
